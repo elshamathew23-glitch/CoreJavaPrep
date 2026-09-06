@@ -14,6 +14,7 @@ public class SecondLargestSalary {
 
         res.ifPresent(r -> System.out.println(r));
 
-        // salary.stream().distinct().skip(1).sorted(Comparator.reverseOrder()).forEach(System.out::println);
+     //java
+
     }
 }
