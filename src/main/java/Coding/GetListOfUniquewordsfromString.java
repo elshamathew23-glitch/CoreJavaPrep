@@ -10,7 +10,7 @@ public class GetListOfUniquewordsfromString {
                                         .collect(Collectors.toCollection(()->new TreeSet<>()));
         System.out.println("List of Unique words in alphabetic order :  "+uniqueWords);
 
-//Count of words in a given string in Alphabetical order
+       //Count of words in a given string in Alphabetical order
         Map<String,Long> res = Arrays.stream(sentence.toLowerCase().split("\\s+"))
                                      .collect(Collectors.groupingBy(s->s,()-> new TreeMap<>(),Collectors.counting()));
         System.out.println("Count of words in a String  ");
