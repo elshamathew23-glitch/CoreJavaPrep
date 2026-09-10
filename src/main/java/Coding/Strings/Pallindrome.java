@@ -1,4 +1,4 @@
-package Coding;
+package Coding.Strings;
 
 public class Pallindrome {
     public static void main (String[] args){
@@ -15,5 +15,7 @@ public class Pallindrome {
         left++;
         right--;
         return new String("It is a pallindrome");
+
+        //
     }
 }

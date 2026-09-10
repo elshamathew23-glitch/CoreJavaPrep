@@ -1,4 +1,4 @@
-package Coding;
+package Coding.Strings;
 
 import java.util.*;
 import java.util.stream.Collectors;

@@ -1,10 +1,7 @@
-package Coding;
+package Coding.Strings;
 
-import java.util.HashSet;
 import java.util.LinkedHashSet;
-import java.util.Map;
 import java.util.Set;
-import java.util.stream.Stream;
 
 public class Duplicates {
     public static void main(String[] args) {
